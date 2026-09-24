@@ -1,0 +1,26 @@
+2026-09-25 00:14:41,413 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.6.5:5000
+2026-09-25 00:14:41,414 - INFO - [33mPress CTRL+C to quit[0m
+2026-09-25 00:14:51,027 - INFO - 10.0.6.5 - - [25/Sep/2026 00:14:51] "GET / HTTP/1.1" 200 -
+2026-09-25 00:14:51,706 - INFO - 10.0.6.5 - - [25/Sep/2026 00:14:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-09-25 00:15:03,328 - INFO - Loading Vector Store for your context./Q
+2026-09-25 00:15:03,328 - INFO - Initializing HuggingFace Embeddings model...
+2026-09-25 00:15:31,282 - INFO - Use pytorch device_name: cpu
+2026-09-25 00:15:31,282 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-09-25 00:15:37,156 - INFO - HuggingFace Embeddings model initialized successfully.
+2026-09-25 00:15:37,158 - INFO - Loading existing vector database...
+2026-09-25 00:15:37,188 - INFO - Loading faiss with AVX2 support.
+2026-09-25 00:15:37,189 - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-09-25 00:15:37,189 - INFO - Loading faiss.
+2026-09-25 00:15:37,801 - INFO - Successfully loaded faiss.
+2026-09-25 00:15:38,476 - INFO - Loading LLM model....
+2026-09-25 00:15:42,168 - INFO - Successfully loaded LLM model...
+2026-09-25 00:15:42,169 - INFO - Successfully Created QA Chain...
+2026-09-25 00:15:43,422 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-25 00:15:43,491 - INFO - 10.0.6.5 - - [25/Sep/2026 00:15:43] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-09-25 00:15:43,516 - INFO - 10.0.6.5 - - [25/Sep/2026 00:15:43] "GET / HTTP/1.1" 200 -
+2026-09-25 00:16:15,870 - INFO - 10.0.6.5 - - [25/Sep/2026 00:16:15] "[32mGET /delete/chat/2 HTTP/1.1[0m" 302 -
+2026-09-25 00:16:15,886 - INFO - 10.0.6.5 - - [25/Sep/2026 00:16:15] "GET / HTTP/1.1" 200 -

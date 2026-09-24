@@ -1,0 +1,95 @@
+2026-09-24 17:44:18,207 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.236.219.219:5000
+2026-09-24 17:44:18,207 - INFO - [33mPress CTRL+C to quit[0m
+2026-09-24 17:44:29,868 - INFO - 127.0.0.1 - - [24/Sep/2026 17:44:29] "GET / HTTP/1.1" 200 -
+2026-09-24 17:44:41,788 - INFO - Loading Vector Store for your context./Q
+2026-09-24 17:44:41,789 - INFO - Initializing HuggingFace Embeddings model...
+2026-09-24 17:44:49,513 - INFO - Use pytorch device_name: cpu
+2026-09-24 17:44:49,514 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-09-24 17:44:59,648 - INFO - HuggingFace Embeddings model initialized successfully.
+2026-09-24 17:44:59,649 - INFO - Loading existing vector database...
+2026-09-24 17:44:59,658 - INFO - Loading faiss with AVX2 support.
+2026-09-24 17:44:59,659 - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-09-24 17:44:59,659 - INFO - Loading faiss.
+2026-09-24 17:44:59,814 - INFO - Successfully loaded faiss.
+2026-09-24 17:45:00,215 - INFO - Loading LLM model....
+2026-09-24 17:45:01,816 - INFO - Successfully loaded LLM model...
+2026-09-24 17:45:01,817 - INFO - Successfully Created QA Chain...
+2026-09-24 17:45:01,827 - INFO - 127.0.0.1 - - [24/Sep/2026 17:45:01] "POST / HTTP/1.1" 200 -
+2026-09-24 17:52:46,904 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.236.219.219:5000
+2026-09-24 17:52:46,904 - INFO - [33mPress CTRL+C to quit[0m
+2026-09-24 17:52:58,254 - INFO - 10.236.219.219 - - [24/Sep/2026 17:52:58] "GET / HTTP/1.1" 200 -
+2026-09-24 17:52:58,669 - INFO - 10.236.219.219 - - [24/Sep/2026 17:52:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-09-24 17:53:08,058 - INFO - Loading Vector Store for your context./Q
+2026-09-24 17:53:08,059 - INFO - Initializing HuggingFace Embeddings model...
+2026-09-24 17:53:09,422 - INFO - 10.236.219.219 - - [24/Sep/2026 17:53:09] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-09-24 17:53:09,438 - INFO - 10.236.219.219 - - [24/Sep/2026 17:53:09] "GET / HTTP/1.1" 200 -
+2026-09-24 17:53:15,861 - INFO - Use pytorch device_name: cpu
+2026-09-24 17:53:15,861 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-09-24 17:53:19,838 - INFO - 10.236.219.219 - - [24/Sep/2026 17:53:19] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-09-24 17:53:19,859 - INFO - 10.236.219.219 - - [24/Sep/2026 17:53:19] "GET / HTTP/1.1" 200 -
+2026-09-24 17:53:23,570 - INFO - HuggingFace Embeddings model initialized successfully.
+2026-09-24 17:53:23,571 - INFO - Loading existing vector database...
+2026-09-24 17:53:23,579 - INFO - Loading faiss with AVX2 support.
+2026-09-24 17:53:23,580 - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-09-24 17:53:23,580 - INFO - Loading faiss.
+2026-09-24 17:53:23,703 - INFO - Successfully loaded faiss.
+2026-09-24 17:53:24,164 - INFO - Loading LLM model....
+2026-09-24 17:53:26,029 - INFO - Successfully loaded LLM model...
+2026-09-24 17:53:26,030 - INFO - Successfully Created QA Chain...
+2026-09-24 17:53:26,039 - INFO - 10.236.219.219 - - [24/Sep/2026 17:53:26] "POST / HTTP/1.1" 200 -
+2026-09-24 17:58:57,457 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.236.219.219:5000
+2026-09-24 17:58:57,460 - INFO - [33mPress CTRL+C to quit[0m
+2026-09-24 17:59:07,116 - INFO - 127.0.0.1 - - [24/Sep/2026 17:59:07] "GET / HTTP/1.1" 200 -
+2026-09-24 17:59:15,513 - INFO - Loading Vector Store for your context./Q
+2026-09-24 17:59:15,513 - INFO - Initializing HuggingFace Embeddings model...
+2026-09-24 17:59:24,142 - INFO - Use pytorch device_name: cpu
+2026-09-24 17:59:24,143 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-09-24 17:59:33,112 - INFO - HuggingFace Embeddings model initialized successfully.
+2026-09-24 17:59:33,115 - INFO - Loading existing vector database...
+2026-09-24 17:59:33,125 - INFO - Loading faiss with AVX2 support.
+2026-09-24 17:59:33,126 - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-09-24 17:59:33,126 - INFO - Loading faiss.
+2026-09-24 17:59:33,327 - INFO - Successfully loaded faiss.
+2026-09-24 17:59:33,884 - INFO - Loading LLM model....
+2026-09-24 17:59:36,009 - INFO - Successfully loaded LLM model...
+2026-09-24 17:59:36,010 - INFO - Successfully Created QA Chain...
+2026-09-24 17:59:38,761 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-24 17:59:38,804 - INFO - 127.0.0.1 - - [24/Sep/2026 17:59:38] "POST / HTTP/1.1" 200 -
+2026-09-24 18:02:23,331 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.236.219.219:5000
+2026-09-24 18:02:23,332 - INFO - [33mPress CTRL+C to quit[0m
+2026-09-24 18:02:31,824 - INFO - 10.236.219.219 - - [24/Sep/2026 18:02:31] "GET / HTTP/1.1" 200 -
+2026-09-24 18:02:45,380 - INFO - Loading Vector Store for your context./Q
+2026-09-24 18:02:45,380 - INFO - Initializing HuggingFace Embeddings model...
+2026-09-24 18:02:52,740 - INFO - Use pytorch device_name: cpu
+2026-09-24 18:02:52,740 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-09-24 18:03:02,823 - INFO - HuggingFace Embeddings model initialized successfully.
+2026-09-24 18:03:02,825 - INFO - Loading existing vector database...
+2026-09-24 18:03:02,831 - INFO - Loading faiss with AVX2 support.
+2026-09-24 18:03:02,832 - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-09-24 18:03:02,832 - INFO - Loading faiss.
+2026-09-24 18:03:02,961 - INFO - Successfully loaded faiss.
+2026-09-24 18:03:03,450 - INFO - Loading LLM model....
+2026-09-24 18:03:05,104 - INFO - Successfully loaded LLM model...
+2026-09-24 18:03:05,105 - INFO - Successfully Created QA Chain...
+2026-09-24 18:03:06,420 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-24 18:03:06,465 - INFO - 10.236.219.219 - - [24/Sep/2026 18:03:06] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-09-24 18:03:06,480 - INFO - 10.236.219.219 - - [24/Sep/2026 18:03:06] "GET / HTTP/1.1" 200 -
+2026-09-24 18:03:25,397 - INFO - 10.236.219.219 - - [24/Sep/2026 18:03:25] "GET / HTTP/1.1" 200 -
+2026-09-24 18:05:03,764 - INFO - 10.236.219.219 - - [24/Sep/2026 18:05:03] "[32mGET /delete/chat/1 HTTP/1.1[0m" 302 -
+2026-09-24 18:05:03,777 - INFO - 10.236.219.219 - - [24/Sep/2026 18:05:03] "GET / HTTP/1.1" 200 -

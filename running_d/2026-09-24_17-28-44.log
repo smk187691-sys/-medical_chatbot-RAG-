@@ -1,0 +1,22 @@
+2026-09-24 17:28:44,384 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.236.219.219:5000
+2026-09-24 17:28:44,385 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-09-24 17:29:00,196 - werkzeug - INFO - 10.236.219.219 - - [24/Sep/2026 17:29:00] "GET / HTTP/1.1" 200 -
+2026-09-24 17:29:00,672 - werkzeug - INFO - 10.236.219.219 - - [24/Sep/2026 17:29:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-09-24 17:29:18,104 - app.componenets.retriver - INFO - loading vector store for your context./Q
+2026-09-24 17:29:18,105 - app.componenets.embeddings - INFO - Initializing HuggingFace Embeddings model...
+2026-09-24 17:29:25,927 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-09-24 17:29:25,927 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-09-24 17:29:35,879 - app.componenets.embeddings - INFO - HuggingFace Embeddings model initialized successfully.
+2026-09-24 17:29:35,880 - app.componenets.vector_store - INFO - Loading existing vector database...
+2026-09-24 17:29:35,891 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2026-09-24 17:29:35,892 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-09-24 17:29:35,892 - faiss.loader - INFO - Loading faiss.
+2026-09-24 17:29:36,030 - faiss.loader - INFO - Successfully loaded faiss.
+2026-09-24 17:29:36,380 - app.componenets.load_llm - INFO - Loading LLM model....
+2026-09-24 17:29:38,493 - app.componenets.load_llm - INFO - Successfully loaded LLM model...
+2026-09-24 17:29:38,495 - app.componenets.retriver - ERROR - Failed to create QA | Error: None | File: C:\Users\smk18\OneDrive\Desktop\medical_chatbox\app\componenets\retriver.py | Line: 35
+2026-09-24 17:29:38,504 - werkzeug - INFO - 10.236.219.219 - - [24/Sep/2026 17:29:38] "POST / HTTP/1.1" 200 -
